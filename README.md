@@ -184,8 +184,8 @@ TripBot provides structured JSON-like responses:
 - **UI Components**: Material Design 3
 
 ### Backend & Services
-- **Database**: Local Storage (Mock) - Ready for Supabase/Firebase
-- **AI Model**: Google Gemini 1.5 Flash
+- **Database**: Supabase
+- **AI Model**: Google Gemini 2.5 Flash
 - **Authentication**: Custom Auth Service (Phone-based)
 
 ### Key Packages
@@ -261,12 +261,6 @@ Database / API
 
 ## 🚀 Installation & Setup
 
-### Prerequisites
-
-- **Flutter SDK**: 3.0.0 or higher
-- **Dart SDK**: 3.0.0 or higher
-- **Android Studio** / **VS Code** with Flutter extensions
-- **Android Device** (for QR scanning and UPI testing)
 
 ### Step 1: Clone the Repository
 
@@ -433,33 +427,6 @@ splitspay/
 
 ---
 
-## 🗺️ Development Roadmap
-
-### Phase 1: Core Features ✅ (Completed)
-- [x] User authentication
-- [x] Group management
-- [x] Item-based split
-- [x] Consumption units split
-- [x] QR code scanning
-- [x] PhonePe integration
-- [x] TripBot AI assistant
-
-### Phase 2: Enhancements 🚧 (In Progress)
-- [ ] Receipt OCR (auto-extract items from photos)
-- [ ] Multi-currency support
-- [ ] Expense analytics & reports
-- [ ] Recurring payments
-- [ ] Debt settlement suggestions
-
-### Phase 3: Advanced Features 🔮 (Planned)
-- [ ] Cloud sync (Firebase/Supabase)
-- [ ] Web dashboard
-- [ ] iOS support
-- [ ] International payment gateways
-- [ ] Group chat integration
-- [ ] Expense categories & tags
-
----
 
 ## 🤝 Contributing
 
@@ -490,26 +457,6 @@ We welcome contributions from the community! Here's how you can help:
 - Use meaningful variable names
 - Add comments for complex logic
 - Write unit tests for new features
-
----
-
-## 👥 Team
-
-<div align="center">
-
-### **Satvacoders** 🚀
-
-*Building intelligent financial solutions for the modern world*
-
-</div>
-
-| Role | Responsibilities |
-|------|------------------|
-| **Project Lead** | Architecture, Feature Planning |
-| **Flutter Developer** | UI/UX Implementation, State Management |
-| **Backend Engineer** | API Integration, Database Design |
-| **AI/ML Specialist** | Gemini Integration, Prompt Engineering |
-| **QA Engineer** | Testing, Bug Fixes, Performance Optimization |
 
 ---
 
@@ -550,15 +497,6 @@ SOFTWARE.
 - **Flutter Community** for excellent packages and support
 - **Open Source Contributors** for inspiration and guidance
 
----
-
-## 📞 Contact & Support
-
-- **GitHub Issues**: [Report bugs or request features](https://github.com/satvacoders/splitspay/issues)
-- **Email**: support@satvacoders.com
-- **Website**: [www.satvacoders.com](https://www.satvacoders.com)
-
----
 
 <div align="center">
 
